@@ -1,0 +1,16 @@
+{
+  "name": "azure-stay",
+  "version": "1.0.0",
+  "description": "Azure Stay — hotel booking platform: guest site, guest account and staff console. Static, no build step.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/test-routes.js && node tests/test-interactions.js",
+    "test:routes": "node tests/test-routes.js",
+    "test:interactions": "node tests/test-interactions.js",
+    "start": "npx --yes serve ."
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
